@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Living in Japan</title>
+    <style>
+      body {
+        background-color: beige;
+        font-family: sans-serif;
+      }
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .main .mainpic {
+        object-fit: cover;
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .main .header {
+        position: absolute;
+        font-weight: bold;
+        color: black;
+        top: 40%;
+      }
+      .main p {
+        position: absolute;
+        top: 45%;
+      }
+      .attractions .img-con {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .attractions .img-con .card-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .img-con .card-wrap .card {
+        border-radius: 15px;
+        margin: 15px;
+        position: relative;
+        width: 450px;
+        height: 600px;
+      }
+
+      .img-con .card-wrap .card img {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        border-radius: 15px;
+        display: block;
+        width: 100%;
+      }
+
+      .img-con .card-wrap .card h3 {
+        margin-left: 15px;
+        margin-top: -35px;
+        font-size: 1em;
+        color: #fcd299;
+      }
+      .img-con .card-wrap .card p {
+        padding-top: 10px;
+      }
+      .attractions .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        color: #fcd299;
+        padding-top: 500px;
+      }
+      .list {
+        margin-top: 150px;
+      }
+      .list h2 {
+        font-size: 1em;
+        color: #fcd299;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .list ol {
+        text-align: center;
+        list-style-position: inside;
+      }
+      .list ol li {
+        text-align: left;
+        margin-left: 45%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img src="/main.jpg" class="mainpic" />
+      <h1 class="header">LIVING IN JAPAN</h1>
+      <p>Experience the culture of Japan.</p>
+    </div>
+    <div class="attractions">
+      <h2 class="header">Main Attractions</h2>
+      <br />
+      <div class="img-con">
+        <div class="card-wrap">
+          <div class="card">
+            <img src="akihabara.jpg" alt="" />
+            <h3>Akihabara</h3>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@jezael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="”_blank”"
+                >Jezael Melgoza</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/tokyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              >
+              <br />
+              Akihabara (Japanese: 秋葉原) is a common name for the area around
+              Akihabara Station in the Chiyoda ward of Tokyo, Japan.
+              Administratively, the area called Akihabara mainly belongs to the
+              Sotokanda (外神田) and Kanda-Sakumachō districts in Chiyoda.
+            </p>
+          </div>
+        </div>
+        <div class="card-wrap">
+          <div class="card">
+            <img src="sangenjaya.jpg" alt="" />
+            <h3>Sangenjaya</h3>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@agk42?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="”_blank”"
+                >Alex Knight</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/tokyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              ><br />
+              Sangenjaya (三軒茶屋) is a district of Setagaya, Tokyo, Japan. It
+              is also known as Sancha (三茶) for short. It is home to many bars,
+              cafes and restaurants. Some major streets include National Route
+              246, Setagaya-dori and Chazawara-dori.
+            </p>
+          </div>
+        </div>
+        <div class="card-wrap">
+          <div class="card">
+            <img src="shibuya.jpg" alt="" />
+            <h3>Shibuya</h3>
+            <p>
+              Photo by
+              <a
+                href="https://unsplash.com/@jezael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="”_blank”"
+                >Jezael Melgoza</a
+              >
+              on
+              <a
+                href="https://unsplash.com/s/photos/tokyo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                >Unsplash</a
+              ><br />
+              Shibuya (渋谷区 Shibuya-ku) is a special ward in Tokyo, Japan. As
+              a major commercial and finance center, it houses two of the
+              busiest railway stations in the world, Shinjuku Station (southern
+              half) and Shibuya Station.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <h2>11 Cities to visit in Japan</h2>
+      <ol>
+        <li>Tokyo</li>
+        <li>Kyoto</li>
+        <li>Osaka</li>
+        <li>Hiroshima</li>
+        <li>Nara</li>
+        <li>Sapporo</li>
+        <li>Fukuoka</li>
+        <li>Kanazawa</li>
+        <li>Kobe</li>
+        <li>Nagasaki</li>
+        <li>Takayama</li>
+      </ol>
+    </div>
+  </body>
+</html>
